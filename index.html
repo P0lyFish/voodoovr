@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="VOODOO VR Project Page">
+  <meta property="og:title" content="VOODOO VR Project Page"/>
+  <meta property="og:description" content="Official project page for VOODOO VR"/>
+  <meta property="og:url" content="https://p0lyfish.github.io/voodoovr/"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="./voodoo3d/static/images/teaser.jpg" />
+  <meta property="og:image:secure_url" content="./voodoovr/static/images/teaser.jpg" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="VOODOO VR Project Page">
+  <meta name="twitter:description" content="Official project page for VOODOO VR">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="./voodoovr/static/images/teaser.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="mbzuai, ethz, vinai, pinscreen, facialreenactment, voodoovr, volumetric, portrait, reenactment, oneshot, headreenactment, computervision, neuralradiancefield, avatar, singleview, cvpr, disentanglement, lookingglass, holographicdisplay, virtualreality, digitalhuman, virtualhuman, vr, ar">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>VOODOO VR</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.png">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">VOODOO VR: One-Shot Neural Avatars for Virtual Reality</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://p0lyfish.github.io/" target="_blank">Phong Tran<sup>1</sup></a>,</span>
+
+              <span class="author-block">
+                <a href="https://egorzakharov.github.io/" target="_blank">Egor Zakharov<sup>2</sup></a>,</span>
+
+              <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=w3vrRqsAAAAJ&hl=en" target="_blank">Long Nhat Ho<sup>1</sup></a>,</span>
+
+              <span class="author-block">
+                <a href="https://www.linkedin.com/in/adilbek-karmanov/" target="_blank">Adilbek Karmanov<sup>1</sup></a>,</span>
+
+              <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=Mvq6pGcAAAAJ&hl=en" target="_blank">Liwen Hu<sup>4</sup></a>,</span>
+
+              <span class="author-block">
+                <a href="https://www.linkedin.com/in/maksat-kengeskanov/?originalSubdomain=kz" target="_blank">Maksat Kengeskanov<sup>1</sup></a>,</span>
+
+              <span class="author-block">
+                <a href="https://dblp.org/pid/295/9556.html" target="_blank">McLean Goldwhite<sup>4</sup></a>,</span>
+
+              <span class="author-block">
+                <a href="https://avi.artstation.com/" target="_blank">Aviral Agarwal<sup>4</sup></a>,</span>
+
+              <span class="author-block">
+                <a href="https://www.linkedin.com/in/ariana-bermudez/" target="_blank">Ariana Bermudez Venegas<sup>1</sup></a>,</span>
+
+              <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=FYZ5ODQAAAAJ&hl=en" target="_blank">Anh Tuan Tran<sup>3</sup></a>,</span>
+
+              <span class="author-block">
+                <a href="https://ait.ethz.ch/people/hilliges" target="_blank">Otmar Hilliges<sup>2</sup></a>,</span>
+
+              <span class="author-block">
+                <a href="https://www.hao-li.com/" target="_blank">Hao Li<sup>1,4</sup></a>
+              </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block"><sup>1</sup><a href="https://mbzuai.ac.ae/" target=" blank">MBZUAI</a>, <sup>2</sup><a href="https://ethz.ch/en.html" target=" blank">ETH Zurich</a>, <sup>3</sup> <a href="https://www.vinai.io/" target=" blank">VinAI Research</a>, <sup>4</sup><a href="https://www.pinscreen.com/" target=" blank">Pinscreen</a></span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/2312.04651.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Abstract</span>
+                      </a>
+                    </span>
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/MBZUAI-Metaverse/VOODOO3D-official" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code (coming soon)</span>
+                  </a>
+                </span>
+
+                <!-- Youtube link -->
+                <span class="link-block">
+                  <a href="https://www.youtube.com/watch?v=EmMqhinPdMk" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Youtube</span>
+                </a>
+                </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video poster="" id="video2" autoplay muted loop playsinline height="100%">
+        <!-- Your video file here -->
+        <source src="static/videos/teaser.mp4"
+        type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+                Introducing <b>VOODOO VR</b>: a two-way immersive telepresence solution based on the state-of-the-art one-shot facial reenactment technology.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+          We present a complete solution for real-time immersive face-to-face communication using VR headsets and photorealistic neural head avatars generated instantly from a single photo. Our avatars are view-consistent neural radiance fields of a person's head 3D lifted into disentangled appearance-expression representation from 2D photographs via transformer networks.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!-- avatar creation carousel -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3">Instant Avatar Creation</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+            <!-- Your video file here -->
+            <source src="static/videos/avt_creation/phong.mp4"
+            type="video/mp4">
+          </video>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+            <!-- Your video file here -->
+            <source src="static/videos/avt_creation/adilbek_ari.mp4"
+            type="video/mp4">
+          </video>
+      </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- End avatar creation carousel -->
+
+<!-- self-reenactment carousel -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3">One-shot Self Reenactment with VR Headset</h2>
+      <video poster="" id="video2" autoplay controls muted loop height="100%">
+        <!-- Your video file here -->
+        <source src="static/videos/self_reenactment.mp4"
+        type="video/mp4">
+      </video>
+    </div>
+</div>
+</div>
+</section>
+<!-- End self-reenactment carousel -->
+
+<!-- rotation carousel -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3">Head Reenactment with Pose Disentanglement</h2>
+      <video poster="" id="video2" autoplay controls muted loop height="100%">
+        <!-- Your video file here -->
+        <source src="static/videos/rotation.mp4"
+        type="video/mp4">
+      </video>
+    </div>
+</div>
+</div>
+</section>
+<!-- End rotation carousel -->
+
+<!-- cross-reenactment carousel -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3">One-shot Cross-reenactment with VR Headset</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+            <!-- Your video file here -->
+            <source src="static/videos/cross/cross01.mp4"
+            type="video/mp4">
+          </video>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+            <!-- Your video file here -->
+            <source src="static/videos/cross/cross02.mp4"
+            type="video/mp4">
+          </video>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+            <!-- Your video file here -->
+            <source src="static/videos/cross/cross03.mp4"
+            type="video/mp4">
+          </video>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+            <!-- Your video file here -->
+            <source src="static/videos/cross/cross04.mp4"
+            type="video/mp4">
+          </video>
+      </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- End cross-reenactment carousel -->
+
+<!-- twoway carousel -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3">Immsersive Two-way VR Telepresence</h2>
+      <video poster="" id="video2" autoplay controls muted loop height="100%">
+        <!-- Your video file here -->
+        <source src="static/videos/twoway.mp4"
+        type="video/mp4">
+      </video>
+    </div>
+</div>
+</div>
+</section>
+<!-- End twoway carousel -->
+
+<!-- Methodology -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <!-- Paper video. -->
+      <h2 class="title is-3">VR Telepresence System</h2>
+      <div class="columns is-centered has-text-centered">
+        <img src="static/images/teaser_image.jpg" style="max-width: 90%;" alt="Teaser image"/>
+      </div>
+        <div class="content has-text-justified">
+          <p>
+            We integrate our facial reenactment method into a VR telepresence system. Our system can build the avatar instantly using a single regular RGB webcam. Then the captured avatar can be driven using the head pose and expression tracked by the VR headset.<br/><br/><br/>
+
+
+          <b>Instant Avatar Creation.</b> We use a single regular RGB webcam to capture a portrait image of the user. The whole process takes 3 seconds for the user to prepare and only 60 milliseconds to create the avatar. Users can also upload any portrait image into the system instead of capturing themselves. This unlocks the ability to customize the avatar or become a different person.<br/><br/>
+          <b>Driving the avatar.</b> After creating the avatar, users can control it using a VR headset, which tracks the 6 DoF head pose with the built-in inside-out/IMU head pose tracker. For expressions, the headset can track 63 different facial muscle movements and eye gaze, corresponding to 65 blendshapes (63 for expression and 2 for eye gaze). We use these blendshapes to create a generic CG face, which is then streamed into our reenactment model as an expression driver.<br/><br/>
+          <b>Two-way communication system.</b> Our system can be used for VR telepresence applications, allowing two users to communicate with each other in virtual reality. The communication system consists of two machines connected via TCP/IP. The avatar image, head pose, and expressions of the first user are streamed to the machine of the second user and vice versa. Since the avatar image is only sent once, we only need to stream the pose and expression, which is in total of 65 float numbers, therefore the latency is very low, allowing seamless communication..<br/>
+          </p>
+        </div>
+    </div>
+  </div>
+</section>
+<!-- End Methodology -->
+
+
+<!-- full video-->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <!-- Paper video. -->
+      <h2 class="title is-3">Accompanying Video</h2>
+      <div class="publication-video">
+        <iframe src="https://www.youtube.com/embed/EmMqhinPdMk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End full video -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@article{tran2023voodoo,
+  title={VOODOO 3D: Volumetric Portrait Disentanglement for One-Shot 3D Head Reenactment},
+  author={Tran, Phong and Zakharov, Egor and Ho, Long-Nhat and Tran, Anh Tuan and Hu, Liwen and Li, Hao},
+  journal={arXiv preprint arXiv:2312.04651},
+  year={2023}
+}</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+<!-- Default Statcounter code for VOODOO VR
+https://p0lyfish.github.io/voodoovr -->
+<script type="text/javascript">
+var sc_project=13003403; 
+var sc_invisible=1; 
+var sc_security="916f35ee"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/13003403/0/916f35ee/1/"
+alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
+
+</body>
+</html>
